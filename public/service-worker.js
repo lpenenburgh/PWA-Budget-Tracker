@@ -2,8 +2,11 @@ const FILES_TO_CACHE = [
     "/",
     "/index.html",
     "/style.css",
-//add other files and icons to cache
-    "/manifest.webmanifest",
+    "/db.js",
+    "/index.js",
+    "/icons/icon-192X192.png",
+    "/icons/icon-512x512.png",
+    "/manifest.webmanifest"
  
   ];
   
