@@ -18,6 +18,7 @@ app.use(express.static("public"));
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/budget",
   {
+    useUnifiedTopology: true,
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
